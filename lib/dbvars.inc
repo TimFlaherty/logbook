@@ -1,4 +1,4 @@
 <?php 
-$dbuser='Database username';
-$dbpass='Database password';
+$dbuser='***Database Username***';
+$dbpass='***Database Password***';
 ?>
