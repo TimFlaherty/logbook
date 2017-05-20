@@ -11,7 +11,9 @@
 </head>
 
 <body>
+<br>
 <h1>Building Log Book</h1>
+<br>
 <form method="POST" action="logbook.php">
 	<table>
 		<tr>
@@ -22,9 +24,10 @@
 		</tr>
 	</table>
 	<br>
-	<input type="submit" value="Sign In">
+	<input type="submit" value="Sign In" id="btn">
 </form>
 <br>
 <?=$output?>
 </body>
 </html>
+

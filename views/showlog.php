@@ -17,7 +17,7 @@
 	        		$outtime = $row["timeout"];
 	        	}
 	        	//Print table rows & give cells unique IDs
-	        	$output .= "<tr><td id='name".$cell."'>".$row["name"]."</td><td>".$row["visiting"]."</td><td>".$row["timein"]."</td><td id='out".$cell."'>".$outtime."</td></tr>";
+	        	$output .= "<tr><td id='name".$cell."'>".$row["name"]."</td><td>".$row["visiting"]."</td><td class='cell'>".$row["timein"]."</td><td class='cell' id='out".$cell."'>".$outtime."</td></tr>";
 	        	$cell++;
 		    }
 	    }

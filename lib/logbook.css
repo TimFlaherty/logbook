@@ -1,6 +1,30 @@
 /* Make tables look nice */
-		table, td, th {
-			border-style:solid;
-			border-collapse:collapse;
-			padding:3px;
-		}
+body {
+	text-align:center;
+	background:#DFDFDF; /* For browsers that do not support gradients */
+  	background:-webkit-linear-gradient(left top, #DFDFDF, #FFFFFF); /* For Safari 5.1 to 6.0 */
+  	background:-o-linear-gradient(bottom right, #DFDFDF, #FFFFFF); /* For Opera 11.1 to 12.0 */
+  	background:-moz-linear-gradient(bottom right, #DFDFDF, #FFFFFF); /* For Firefox 3.6 to 15 */
+	background:linear-gradient(to bottom right, #DFDFDF, #FFFFFF);
+	}
+
+table, td, th {
+	margin:auto;
+	border-style:solid;
+	border-collapse:collapse;
+	padding:3px;
+	background:#FFFFFF;
+	}
+	
+table {
+	border-radius:5px;
+	box-shadow:3px 3px 5px #000000;
+	}
+		
+th {
+	background:#CFCFCF;
+	}
+	
+.cell {
+	text-align:center;
+	}
